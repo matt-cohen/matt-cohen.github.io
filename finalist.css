@@ -1,0 +1,68 @@
+#header_image {
+	max-width: 100%;
+	height: auto;
+	width: auto/9;
+}
+h1 {
+	font-family: "Palatino Linotype";
+
+}
+
+h2 {
+	font-family: "Palatino Linotype";
+}
+
+h3 {
+	font-family: "Palatino Linotype";
+	font-size: 20;
+}
+
+p {
+	font-family: Helvetica; 
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.columns {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+}
+
+.left_column {
+	width:45%;
+	float: left;
+	padding: 10px;
+}
+.right_column {
+	width: 45%;
+	float: right;
+	padding: 10px;
+}
+
+.right_column, .left_column {
+	display: inline-block;
+}
+
+.footer {
+	background: gray;
+	clear: both;
+}
+
+#click {
+	font-size: 30;
+}
+
+#panel {
+	padding: 50px;
+	display: none;
+}
+
+#contact_footer {
+	clear: both;
+	color: blue;
+	text-decoration: underline;
+}
